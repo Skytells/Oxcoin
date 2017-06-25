@@ -1,0 +1,9 @@
+Building Oxcoin
+
+See doc/readme-qt.rst for instructions on building Oxcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Oxcoin.
+
+See doc/build-*.txt for instructions on building oxcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Oxcoin.

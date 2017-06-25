@@ -1,0 +1,34 @@
+src/*.exe
+src/oxcoin
+src/oxcoind
+src/test_oxcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.oxcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+oxcoin-qt
+Oxcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+oxcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
