@@ -8,7 +8,7 @@ Copyright (c) 2011-2014 Oxcoin Developers
 What is Oxcoin?
 ----------------
 
-Oxcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+Oxcoin is cryptocurrency same as Bitcoin using scrypt as a proof-of-work algorithm.
  - 2.5 minute block targets
  - subsidy halves in 840k blocks (~4 years)
  - ~84 million total coins
@@ -66,7 +66,7 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
+    qmake BITCOIN_QT_TEST=1 -o Makefile.test Oxcoin-qt.pro
     make -f Makefile.test
     ./oxcoin-qt_test
 
